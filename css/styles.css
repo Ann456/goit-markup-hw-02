@@ -1,0 +1,217 @@
+:root {
+  --logo-color: #2196f3;
+  --body-color: #212121;
+  --tel-color: #757575;
+  --footer-tel-color: rgba(255, 255, 255, 0.6);
+  --footer-logo-color: #ffffff;
+  --button-color: #f5f4fa;
+  --logo-studio: #000000;
+  --button-hero: #188ce8;
+  --button-hero-shadow: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  color: var(--body-color);
+  background-color: var(--footer-logo-color);
+  font-family: "Roboto", ‘Raleway’ sans-serif;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hero-title {
+  /* Эффективные решения для вашего бизнеса */
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--footer-logo-color);
+}
+
+.hero-button {
+  font-family: "Roboto", ‘Raleway’ sans-serif;
+  font-style: normal;
+  background: var(--logo-color);
+  color: var(--footer-logo-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px var(--button-hero-shadow);
+  border-radius: 4px;
+}
+
+.need_to_hide {
+  /* Скрыли h2 на главной */
+  visibility: hidden;
+}
+
+.section-features .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-features .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--tel-color);
+}
+
+.section-doing h2,
+.section-team h2 {
+  /* Чем мы занимаемся */
+  /* Наша команда*/
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.section-team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.section-team .text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--tel-color);
+}
+
+.logo {
+  /* Цвет и шрифт logo Web+Studio */
+  color: var(--logo-studio);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-family: ‘Raleway’, ‘Roboto’, sans-serif;
+}
+
+.logo-web {
+  color: var(--logo-color);
+}
+
+.header-logo-studio {
+  color: var(--logo-studio);
+}
+
+.menu-nav .link {
+  color: var(--body-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  fill: Solid;
+}
+
+.menu-nav .current {
+  color: var(--logo-color);
+}
+
+.header-tel-email .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--tel-color);
+}
+
+.header-tel-email .link:hover,
+.header-tel-email .link:focus,
+.menu-nav .link:hover,
+.menu-nav .link:focus,
+.footer-address-tel-email:hover,
+.footer-address-tel-email:focus,
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--logo-color);
+}
+
+.filters-button {
+  font-family: "Roboto", ‘Raleway’ sans-serif;
+  font-style: normal;
+  background: var(--button-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  background: var(--logo-color);
+  color: var(--footer-logo-color);
+}
+
+.project-title {
+  font-family: "Roboto", ‘Raleway’ sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 2;
+  color: var(--body-color);
+}
+
+.project-text {
+  color: var(--tel-color);
+  letter-spacing: 0.03em;
+  line-height: 1.9;
+}
+
+.footer-logo-studio {
+  color: var(--footer-logo-color);
+}
+
+.footer-address {
+  color: var(--footer-logo-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.footer-address-tel-email {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer {
+  /* Footer bg */
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
+}
