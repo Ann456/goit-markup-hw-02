@@ -8,6 +8,7 @@
   --logo-studio: #000000;
   --button-hero: #188ce8;
   --button-hero-shadow: rgba(0, 0, 0, 0.15);
+  --hero-footer-bg: #2f303a;
 }
 
 body {
@@ -55,6 +56,10 @@ body {
   background: #188ce8;
   box-shadow: 0px 4px 4px var(--button-hero-shadow);
   border-radius: 4px;
+}
+
+.hero {
+  background: var(--hero-footer-bg);
 }
 
 .need_to_hide {
